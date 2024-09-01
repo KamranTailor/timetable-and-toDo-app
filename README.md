@@ -32,7 +32,7 @@ Plan and Prioritize: Easily prioritize tasks and manage your workload with intui
     You can use two different ways to run the program:
     
     A. Open the file **run.cmd** for Windows or **run.sh** for Mac to open the program. 
-    B. Open the terminal in the correct directory and type the command
+    B. Open the terminal in the correct directory and type the command:
     ```
     node index.js
     ```
