@@ -1,0 +1,90 @@
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* General button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Style for the "Change Week" button */
+button:nth-child(1) {
+    background-color: #3498db; /* Light blue */
+    color: white;
+}
+
+button:nth-child(1):hover {
+    background-color: #2980b9; /* Darker blue */
+    transform: scale(1.05);
+}
+
+/* Style for the "Add Item" button */
+button:nth-child(2) {
+    background-color: #2ecc71; /* Light green */
+    color: white;
+    margin-left: 10px;
+}
+
+button:nth-child(2):hover {
+    background-color: #27ae60; /* Darker green */
+    transform: scale(1.05);
+}
+
+/* Style for the "Reset List" button */
+button:nth-child(3) {
+    background-color: #e67e22; /* Orange */
+    color: white;
+    margin-left: 10px;
+}
+
+button:nth-child(3):hover {
+    background-color: #d35400; /* Darker orange */
+    transform: scale(1.05);
+}
+
+button:nth-child(4) {
+    background-color: #f39c12; /* Yellow */
+    color: white;
+    margin-left: 10px;
+}
+
+button:nth-child(4):hover {
+    background-color: #e67e22; /* Darker yellow */
+    transform: scale(1.05);
+}
+
+/* Style for the "Delete" button */
+button:nth-child(5) {
+    background-color: #e74c3c; /* Red */
+    color: white;
+    margin-left: 10px;
+}
+
+button:nth-child(5):hover {
+    background-color: #c0392b; /* Darker red */
+    transform: scale(1.05);
+}
+
+select, input {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#emoji {
+    width: 20px;
+}
+
+#timeTable, #editLessons {
+    display: none;
+}

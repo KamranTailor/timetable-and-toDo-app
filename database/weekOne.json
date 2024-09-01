@@ -1,0 +1,60 @@
+[
+  {
+    "day": "monday",
+    "data": {
+      "p1": "Maths",
+      "p2": "Maths",
+      "p3": "Maths",
+      "p4": "Maths",
+      "p5": "Maths"
+    }
+  },
+  {
+    "day": "tuesday",
+    "data": {
+      "p1": "Maths",
+      "p2": "Maths",
+      "p3": "Maths",
+      "p4": "Maths",
+      "p5": "Maths"
+    }
+  },
+  {
+    "day": "wednesday",
+    "data": {
+      "p1": "Maths",
+      "p2": "Maths",
+      "p3": "Maths",
+      "p4": "Maths",
+      "p5": "Maths"
+    }
+  },
+  {
+    "day": "thursday",
+    "data": {
+      "p1": "Maths",
+      "p2": "Maths",
+      "p3": "Maths",
+      "p4": "Maths",
+      "p5": "Maths"
+    }
+  },
+  {
+    "day": "friday",
+    "data": {
+      "p1": "Maths",
+      "p2": "Maths",
+      "p3": "Maths",
+      "p4": "Maths",
+      "p5": "Maths"
+    }
+  },
+  {
+    "day": "saturday",
+    "data": null
+  },
+  {
+    "day": "sunday",
+    "data": null
+  }
+]

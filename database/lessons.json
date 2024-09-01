@@ -1,0 +1,54 @@
+[
+  {
+    "emoji": "🧮",
+    "name": "Maths"
+  },
+  {
+    "emoji": "📖",
+    "name": "English"
+  },
+  {
+    "emoji": "🖥️",
+    "name": "Computer Science"
+  },
+  {
+    "emoji": "🏰",
+    "name": "History"
+  },
+  {
+    "emoji": "🎶",
+    "name": "Music"
+  },
+  {
+    "emoji": "⚖️",
+    "name": "Citizenship"
+  },
+  {
+    "emoji": "⚽️",
+    "name": "PE"
+  },
+  {
+    "emoji": "🧑‍🧑‍🧒",
+    "name": "PSHE"
+  },
+  {
+    "emoji": "💰",
+    "name": "Business"
+  },
+  {
+    "emoji": "🎬",
+    "name": "Media"
+  },
+  {
+    "emoji": "🇫🇷",
+    "name": "French"
+  },
+  {
+    "emoji": "🔬",
+    "name": "Science SC1"
+  },
+  {
+    "emoji": "🔬",
+    "name": "Science AB"
+  }
+]

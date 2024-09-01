@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Timetable</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Today</a></li>
+                <li><a href="/week">This Week</a></li>
+                <li><a href="/edit">Edit</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    <center><h1>Week <span id="week"></span></h1></center>
+    <br>
+    <section id="lessons">
+        <h2>Todays Lessons</h2>
+        <ul id="lessonList">
+        </ul>
+    </section>
+   
+    <section id="toDo">
+        <h2>You have <span id="toDoAmmount">0</span> items to do</h2>
+        <ul id="toDoList">
+        </ul>
+    </section>
+
+    </main>
+    <script src="script.js"></script>
+    <script src="genEmoji.js"></script>
+</body>
+</html>

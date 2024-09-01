@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Timetable</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../global.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../">Today</a></li>
+                <li><a href="/week">This Week</a></li>
+                <li><a href="">Edit</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <center><h1>Settings</h1></center>
+        <br>
+        <div>
+            <button onclick="change()">Change Week</button>
+            <button onclick="addToDo()">Add To Do</button>
+            <button onclick="editTimeTable()">Edit Time Table</button>
+            <button onclick="editLessons()">Edit Lessons</button>
+        </div>
+        <br>
+        <div id="timeTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Period One</th>
+                        <th>Period Two</th>
+                        <th>Period Three</th>
+                        <th>Period Four</th>
+                        <th>Period Five</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+            <button onclick="gatherTimeTableDataAndSend()">Send</button>
+        </div>
+        <div id="editLessons">
+            <h2>Edit Lessons</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Emoji</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+            <tbody id="lessonList"></tbody>
+            </table>
+            <button onclick="saveLessons()">Save</button>
+        </div>
+    </main>
+    <br>
+
+</body>
+<script src="script.js"></script>
+<script src="../genEmoji.js"></script>
+<script src="lessons.js"></script>
+
+</html>
